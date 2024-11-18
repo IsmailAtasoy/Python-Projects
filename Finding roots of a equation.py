@@ -1,3 +1,4 @@
+import time
 def error():
     print("Enter the values again.")
 
@@ -34,6 +35,7 @@ print(f"{a}x²+{b}x+{c} is your equation that you have created.")
 check_roots()
 diskrimant = b**2-4*a*c
 find_root()
+time.sleep(20)
 
 
 
